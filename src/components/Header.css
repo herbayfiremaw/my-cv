@@ -1,0 +1,11 @@
+section {
+  padding: 40px 32px;
+}
+
+section h1 {
+  color: var(--accent);
+}
+
+section a {
+  color: var(--accent);
+}
