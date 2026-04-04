@@ -1,4 +1,23 @@
 .education {
   padding: 40px 32px;
   text-align: left;
+  margin: 24px 32px;
+}
+
+.education h3 {
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.education ul {
+  list-style: none;
+  padding: 0;
+}
+
+.education li {
+  padding: 10px 16px;
+  margin-bottom: 6px;
+  background: var(--accent-bg);
+  border-left: 4px solid var(--accent);
+  border-radius: 6px;
 }

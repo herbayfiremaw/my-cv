@@ -2,3 +2,15 @@
   padding: 40px 32px;
   text-align: left;
 }
+
+.about {
+  padding: 40px 32px;
+  text-align: left;
+  background: var(--accent-bg);
+  border-radius: 12px;
+  margin: 24px 32px;
+}
+
+.about p {
+  line-height: 1.8;
+}

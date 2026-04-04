@@ -1,3 +1,5 @@
+import './Languages.css'
+
 function Languages() {
     return (
         <section className="languages">
@@ -9,8 +11,5 @@ function Languages() {
             </ul>
         </section>
     )
-
 }
-
 export default Languages
-
