@@ -1,6 +1,6 @@
 function Experience() { 
     return (
-        <section>
+        <section className="experience">
             <h2>Professional Experience</h2>
             <h3>Lendivo OOD | Sofia, Bulgaria</h3>
             <p>Customer Support</p>

@@ -1,6 +1,6 @@
 function Projects() {
     return(
-        <section>
+        <section className="projects">
             <h2>Software Engineering Training & Projects</h2>
             <h3>Independent Software Project | Currently in Development</h3>
             <ul>

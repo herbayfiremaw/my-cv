@@ -1,6 +1,6 @@
 function Languages() {
     return (
-        <section>
+        <section className="languages">
             <h2>Languages</h2>
             <ul>
                 <li>Bulgarian: Native</li>

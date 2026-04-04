@@ -1,6 +1,6 @@
 function About() {
     return (
-        <section>
+        <section className="about">
 
             <h2>Professional Summary</h2>
             <p>Highly motivated and self-driven aspiring software developer with a solid foundation in

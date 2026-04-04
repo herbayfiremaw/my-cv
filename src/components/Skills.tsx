@@ -1,6 +1,6 @@
 function Skills() {
     return(
-        <section>
+        <section className="skills">
             <h2>Technical Skills</h2>
             <ul>
                 <li>Programming Languages: Javascript, TypeScript, Python</li>

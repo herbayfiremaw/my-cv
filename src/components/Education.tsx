@@ -1,6 +1,6 @@
 function Education(){
     return(
-        <section>
+        <section className="education">
                 <h2>Education</h2>
                 <h3>Sofia University | Sofia, Bulgaria</h3>
                 <ul>
