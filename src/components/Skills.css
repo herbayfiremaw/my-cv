@@ -1,5 +1,5 @@
 .skills {
-  padding: 60px 40px;
+  padding: 60px 0;
 }
 
 .skills ul {
@@ -38,7 +38,7 @@
 
 @media (max-width: 768px) {
   .skills {
-    padding: 40px 24px;
+    padding: 40px 0;
   }
   .skills ul {
     grid-template-columns: 1fr;

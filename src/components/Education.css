@@ -1,5 +1,5 @@
 .education {
-  padding: 60px 40px;
+  padding: 60px 0;
 }
 
 .education .school {
@@ -38,6 +38,6 @@
 
 @media (max-width: 768px) {
   .education {
-    padding: 40px 24px;
+    padding: 40px 0;
   }
 }

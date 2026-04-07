@@ -1,5 +1,5 @@
 .experience {
-  padding: 60px 40px;
+  padding: 60px 0;
 }
 
 .experience .job {
@@ -30,7 +30,7 @@
 
 @media (max-width: 768px) {
   .experience {
-    padding: 40px 24px;
+    padding: 40px 0;
   }
   .experience .job {
     padding: 18px;

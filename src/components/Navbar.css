@@ -1,10 +1,10 @@
 nav {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
   padding: 0 40px;
   background: var(--bg-card);
-  border-bottom: 1px solid var(--border);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -36,13 +36,15 @@ nav a.active {
 
 @media (max-width: 768px) {
   nav {
-    padding: 0 16px;
-    gap: 4px;
+    padding: 0 12px;
+    gap: 0;
     overflow-x: auto;
+    justify-content: flex-start;
+    -webkit-overflow-scrolling: touch;
   }
   nav a {
-    font-size: 12px;
-    padding: 12px 10px;
+    font-size: 11px;
+    padding: 12px 8px;
     white-space: nowrap;
   }
 }

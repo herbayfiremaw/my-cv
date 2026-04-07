@@ -38,12 +38,17 @@ body {
 }
 
 #root {
-  width: 960px;
-  max-width: 100%;
-  margin: 0 auto;
   min-height: 100svh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+}
+
+.content-width {
+  width: 960px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 h1, h2, h3 {

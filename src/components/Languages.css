@@ -1,5 +1,5 @@
 .languages {
-  padding: 60px 40px;
+  padding: 60px 0;
 }
 
 .languages ul {
@@ -27,6 +27,12 @@
   border-color: var(--accent-border);
 }
 
+.languages .lang-flag {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 12px;
+}
+
 .languages .lang-name {
   font-weight: 600;
   color: var(--text-h);
@@ -43,7 +49,7 @@
 
 @media (max-width: 768px) {
   .languages {
-    padding: 40px 24px;
+    padding: 40px 0;
   }
   .languages ul {
     grid-template-columns: 1fr;

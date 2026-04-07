@@ -1,5 +1,5 @@
 .projects {
-  padding: 60px 40px;
+  padding: 60px 0;
 }
 
 .projects .project-card {
@@ -61,7 +61,7 @@
 }
 
 .projects li::before {
-  content: '→';
+  content: '\2192';
   position: absolute;
   left: 0;
   color: var(--accent);
@@ -70,6 +70,6 @@
 
 @media (max-width: 768px) {
   .projects {
-    padding: 40px 24px;
+    padding: 40px 0;
   }
 }

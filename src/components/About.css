@@ -1,5 +1,5 @@
 .about {
-  padding: 60px 40px;
+  padding: 60px 0;
 }
 
 .about p {
@@ -11,6 +11,6 @@
 
 @media (max-width: 768px) {
   .about {
-    padding: 40px 24px;
+    padding: 40px 0;
   }
 }
