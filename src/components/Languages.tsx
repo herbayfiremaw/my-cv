@@ -5,9 +5,18 @@ function Languages() {
         <section className="languages">
             <h2>Languages</h2>
             <ul>
-                <li>Bulgarian: Native</li>
-                <li>English: C2</li>
-                <li>Japanese: B2</li>
+                <li>
+                    <span className="lang-name">Bulgarian</span>
+                    <span className="lang-level">Native</span>
+                </li>
+                <li>
+                    <span className="lang-name">English</span>
+                    <span className="lang-level">C2 — Proficient</span>
+                </li>
+                <li>
+                    <span className="lang-name">Japanese</span>
+                    <span className="lang-level">B2 — Independent</span>
+                </li>
             </ul>
         </section>
     )

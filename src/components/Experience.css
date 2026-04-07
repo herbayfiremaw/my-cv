@@ -1,23 +1,38 @@
 .experience {
-  padding: 40px 32px;
-  text-align: left;
-  margin: 24px 32px;
-}
-
-.experience h3 {
-  color: var(--accent);
-  margin-bottom: 4px;
-  margin-top: 0;
-}
-
-.experience p {
-  margin-bottom: 0;
+  padding: 60px 40px;
 }
 
 .experience .job {
-  padding: 16px;
-  margin-bottom: 12px;
-  background: var(--accent-bg);
-  border-left: 4px solid var(--accent);
-  border-radius: 6px;
+  padding: 24px;
+  margin-bottom: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.25s ease;
+}
+
+.experience .job:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--accent-border);
+}
+
+.experience h3 {
+  color: var(--text-h);
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.experience p {
+  color: var(--text-light);
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 40px 24px;
+  }
+  .experience .job {
+    padding: 18px;
+  }
 }

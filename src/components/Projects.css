@@ -1,23 +1,75 @@
 .projects {
-  padding: 40px 32px;
-  text-align: left;
-  margin: 24px 32px;
+  padding: 60px 40px;
+}
+
+.projects .project-card {
+  padding: 24px;
+  margin-bottom: 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.25s ease;
+}
+
+.projects .project-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--accent-border);
 }
 
 .projects h3 {
+  color: var(--text-h);
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.projects .status {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-left: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.projects .status.active {
+  background: rgba(74, 124, 35, 0.1);
   color: var(--accent);
-  margin-bottom: 8px;
+}
+
+.projects .status.done {
+  background: rgba(74, 124, 35, 0.15);
+  color: var(--accent);
 }
 
 .projects ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .projects li {
-  padding: 10px 16px;
-  margin-bottom: 6px;
-  background: var(--accent-bg);
-  border-left: 4px solid var(--accent);
-  border-radius: 6px;
+  padding: 8px 0;
+  padding-left: 20px;
+  position: relative;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text);
+}
+
+.projects li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 40px 24px;
+  }
 }
