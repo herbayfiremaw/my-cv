@@ -6,6 +6,7 @@
 
 main {
   flex: 1;
+  background: linear-gradient(180deg, #eaf3df 0%, #fafcf7 50%, var(--bg) 100%);
 }
 
 .footer {
